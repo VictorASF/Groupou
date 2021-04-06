@@ -10,12 +10,14 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
-import Login from './pages/Login/index'
+//import Login from './pages/Login/index'
+import PerfilAluno from './pages/PerfilAluno/index'
 
 export default function App() {
 
   return (
-      <Login/>
-    );
+      //<Login/>
+      <PerfilAluno/>
+      );
 }
 
