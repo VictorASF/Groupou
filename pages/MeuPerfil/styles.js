@@ -165,3 +165,53 @@ margin-left:7px;
 color: #AB1B66;
 `;
 
+export const ContainerAvaliacao = styled.View`
+background-color:#FFFFFF;
+border-radius:10px;
+padding:20px;
+width:100%;
+margin-bottom:15px;
+`;
+
+export const AvaliacaoHolding = styled.View`
+flex-direction:row;
+margin-bottom: 20px;
+`;
+
+export const AvaliacaoEscritaMedia = styled.Text`
+margin-bottom:5px;
+    font-size:18px;
+    color: #81879E;
+    font-weight:bold;
+`;
+
+export const AvaliacaoTitulo = styled.Text`
+font-weight:bold;
+    color:#5F6478;
+    font-size:20px;
+    margin-bottom:20px;
+`;
+
+export const AvaliacaoFoto = styled.Image`
+resizeMode: contain;
+height:90px;
+width:90px;
+`;
+
+export const AvaliacaoColumn = styled.View`
+margin-left:10px;
+margin-top:10px;
+`;
+
+export const AvaliacaoTexto = styled.Text`
+margin-bottom:10px;
+    font-size:18px;
+    color: #81879E;
+
+`;
+
+export const AvaliacaoMedia= styled.Text`
+font-size:35px;
+font-weight:bold;
+color:#00BF00;
+`;

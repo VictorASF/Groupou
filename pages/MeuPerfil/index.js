@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {ScrollView} from 'react-native';
 import img from '../../assets/foto_perfil.jpg'
+import imgCont from '../../assets/rosto_contente.png'
 import {
     Container,
     ContainerTexto,
@@ -26,6 +27,14 @@ import {
     HardSkill,
     HardSkillProgress,
     HardSkillProficiencia,
+    ContainerAvaliacao,
+    AvaliacaoHolding,
+    AvaliacaoEscritaMedia,
+    AvaliacaoTitulo,
+    AvaliacaoFoto,
+    AvaliacaoTexto,
+    AvaliacaoMedia,
+    AvaliacaoColumn
 } from './styles'
 
 export default function MeuPerfil(){
@@ -174,11 +183,14 @@ export default function MeuPerfil(){
                     Avaliações Recebidas
                 </AvaliacaoTitulo>
                 <AvaliacaoHolding>
-                    <AvaliacaoFoto></AvaliacaoFoto>
-                    <AvaliacaoEscritaMedia></AvaliacaoEscritaMedia>
-                    <AvaliacaoMedia></AvaliacaoMedia>
+                    <AvaliacaoFoto source={imgCont}/>
+                    <AvaliacaoColumn>
+                        <AvaliacaoEscritaMedia>Sua média</AvaliacaoEscritaMedia>
+                        <AvaliacaoMedia>3,9</AvaliacaoMedia>
+                    </AvaliacaoColumn>
                 </AvaliacaoHolding>
-                <AvaliacaoTexto></AvaliacaoTexto>
+                <AvaliacaoTexto>Seus colegas te avaliam com as seguintes soft skills:
+                </AvaliacaoTexto>
                 <SoftSkillHolding>
                     <SoftSkill>
                         <SoftSkillTexto>
