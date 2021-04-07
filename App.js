@@ -11,13 +11,15 @@ import React from 'react';
 import {Text, View} from 'react-native';
 
 //import Login from './pages/Login/index'
-import PerfilAluno from './pages/PerfilAluno/index'
+//import PerfilAluno from './pages/PerfilAluno/index'
+import MeuPerfil from './pages/MeuPerfil/index'
 
 export default function App() {
 
   return (
       //<Login/>
-      <PerfilAluno/>
+      //<PerfilAluno/>
+      <MeuPerfil/>
       );
 }
 
