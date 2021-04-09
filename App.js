@@ -10,16 +10,18 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
-//import Login from './pages/Login/index'
-//import PerfilAluno from './pages/PerfilAluno/index'
+import Login from './pages/Login/index'
+import PerfilAluno from './pages/PerfilAluno/index'
 import MeuPerfil from './pages/MeuPerfil/index'
+import EditarPerfil from './pages/EditarPerfil/index'
 
 export default function App() {
 
   return (
       //<Login/>
       //<PerfilAluno/>
-      <MeuPerfil/>
+      //<MeuPerfil/>
+      <EditarPerfil/>
       );
 }
 
