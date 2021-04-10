@@ -14,6 +14,7 @@ import Login from './pages/Login/index'
 import PerfilAluno from './pages/PerfilAluno/index'
 import MeuPerfil from './pages/MeuPerfil/index'
 import EditarPerfil from './pages/EditarPerfil/index'
+import DetalheDisciplina from './pages/DetalheDisciplina/index'
 
 export default function App() {
 
@@ -21,7 +22,8 @@ export default function App() {
       //<Login/>
       //<PerfilAluno/>
       //<MeuPerfil/>
-      <EditarPerfil/>
+      //<EditarPerfil/>
+      <DetalheDisciplina/>
       );
 }
 
